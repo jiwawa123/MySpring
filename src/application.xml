@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="A" class="com.spring.A">
+        <property name="name" value="xiaoA"></property>
+    </bean>
+    <bean name="B" class="com.spring.B">
+        <property name="name" value="xiaogang"></property>
+        <property name="a" ref="A"></property>
+    </bean>
+</beans>
