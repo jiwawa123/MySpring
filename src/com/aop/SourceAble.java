@@ -6,4 +6,5 @@ package com.aop;/*
 
 public interface SourceAble {
     void method();
+    void method1();
 }

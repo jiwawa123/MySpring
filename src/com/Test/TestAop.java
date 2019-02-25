@@ -18,7 +18,7 @@ public class TestAop {
         InvocationHandler invocationHandler = new MyInvocationHandler(sourceAble1);//
         //代理对象
         SourceAble dynamicProxy = (SourceAble) java.lang.reflect.Proxy.newProxyInstance(sourceAble1.getClass().getClassLoader(),sourceAble1.getClass().getInterfaces(),invocationHandler);
-        dynamicProxy.method();
+        dynamicProxy.method1();
 
     }
 }
